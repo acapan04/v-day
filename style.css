@@ -186,3 +186,87 @@ h1 {
     from { transform: translateY(0) rotate(-1deg); }
     to { transform: translateY(-12px) rotate(1deg); }
 }
+
+.yes-message {
+    font-size: 1.4rem;
+    color: #e91e8c;
+    font-weight: 700;
+    margin-top: 24px;
+    animation: fadeIn 1s ease 0.5s both;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.yes-container #cat-gif {
+    width: 260px;
+    height: 260px;
+}
+
+/* Clean yes page layout */
+body.yes-page {
+    min-height: 100vh;
+    align-items: flex-start;
+    overflow-y: auto;
+    padding: 30px 0 70px;
+}
+
+.yes-details-card {
+    width: min(92vw, 620px);
+    margin: 20px auto 0;
+    background: rgba(255, 255, 255, 0.88);
+    border: 2px solid #ffc2d1;
+    border-radius: 22px;
+    box-shadow: 0 12px 30px rgba(214, 51, 132, 0.15);
+    padding: 20px;
+}
+
+.yes-details-card h2 {
+    color: #d63384;
+    font-size: 1.6rem;
+    margin: 8px 0 14px;
+}
+
+.us-photo-frame {
+    margin: 0 auto 18px;
+    width: min(88vw, 420px);
+    background: rgba(255, 255, 255, 0.95);
+    border: 3px solid #ffc2d1;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+.us-photo {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.love-letter-text {
+    color: #7a234f;
+    font-size: 1.06rem;
+    line-height: 1.7;
+    font-weight: 700;
+    text-align: left;
+}
+
+.photo-tip {
+    margin-top: 14px;
+    color: #a03366;
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+.photo-tip code {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 6px;
+    padding: 2px 6px;
+}
+
+@keyframes bounceTitle {
+    from { transform: translateY(0) rotate(-1deg); }
+    to { transform: translateY(-12px) rotate(1deg); }
+}
