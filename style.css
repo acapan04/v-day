@@ -186,21 +186,3 @@ h1 {
     from { transform: translateY(0) rotate(-1deg); }
     to { transform: translateY(-12px) rotate(1deg); }
 }
-
-.yes-message {
-    font-size: 1.4rem;
-    color: #e91e8c;
-    font-weight: 700;
-    margin-top: 24px;
-    animation: fadeIn 1s ease 0.5s both;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-.yes-container #cat-gif {
-    width: 260px;
-    height: 260px;
-}
