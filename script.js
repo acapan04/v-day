@@ -5,8 +5,8 @@ const gifStages = [
     "https://media1.tenor.com/m/22hwAGkxTDEAAAAC/we-bare-bears-sad.gif",             // 3 sad
     "https://media.tenor.com/dUaOCPatbs8AAAAi/we-bare-bears-cry.gif",       // 4 sadder
     "https://media1.tenor.com/m/FMK8HlQRUosAAAAC/milk-bear.gif",             // 5 devastated
-    "https://media1.tenor.com/m/74PlfOXmxIMAAAAC/phuoctino.gif",               // 6 very devastated
-    "https://media1.tenor.com/m/VHugmWVSGW4AAAAC/yay-we-bear-bears.gif"  // 7 crying runaway
+    "https://media1.tenor.com/m/y1_qIA-zROAAAAAC/chorando-grizzly-bear.gif",               // 6 very devastated
+    "https://media1.tenor.com/m/74PlfOXmxIMAAAAC/phuoctino.gif"  // 7 crying runaway
 ]
 
 const noMessages = [
